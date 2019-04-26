@@ -1,0 +1,101 @@
+<!doctype html>
+<html rem="1920">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/u-reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/china.js"></script>
+    <title>停车场</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>停车场监控运营中心</h1>
+            <div class="time">
+				<div class="now-time">nihao</div>
+				<div class="now-date">事件aaisxnas</div>
+            </div>
+        </header>
+        <div class="neirong clearfix">
+            <div class="left">
+                <div class="item-one today-income">
+                    <h3>今日收入/元</h3>
+                    <div class="money">
+                        <div class="money-number hidden1">00000</div>
+                        <div class="money-rate">
+                            <p>同比昨日(%)</p>
+                            <img src="images/down.png" alt="">
+                            <span>0.52</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-two stop-time">
+                    <h3>当前停车时长</h3>
+                    <div class="stop-time-box">
+                    </div>
+                </div>
+                <div class="item-three equ-warning">
+                    <h3>设备警告</h3>
+                    <div class="details-box">
+                        <ul class="details">
+                            <li>
+                                <div class="top">
+                                    <div class="top-title">
+                                        <span class="state">未处理</span>巡逻人员：<span>xxx</span>
+                                    </div>
+                                    <div class="top-time">13:11:16</div>
+                                </div>
+                                <div class="info">
+                                    <div class="top-name">绿地公园观察</div>
+                                    <div class="fault-info hidden1">长联掉线</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="map"></div>
+                <div class="car-img">
+                    <ul></ul>
+                </div>
+            </div>
+            <div class="right">
+                <ul class="item-one park-space">
+                    <li><span class="total_seat"></span><span>开放泊车位</span></li>
+                    <li><span class="occupy_seat"></span><span>占用泊位</span></li>
+                    <li><span class="ratio"></span><span>泊位占用率</span></li>
+                </ul>
+                <div class="item-two income-list">
+                    <h3>停车收费排行</h3>
+                    <div class="income-list-box">
+                        <div class="income-list-left"></div>
+                        <div class="income-list-right"></div>
+                    </div>
+                </div>
+                <div class="item-three yet-situation">
+                    <h3>昨日运营情况</h3>
+                    <div class="details-box">
+                        <ul class="details yet-situation-box">
+                            <li>
+                                <div class="top">
+                                    <span>xxx</span>
+                                </div>
+                                <div class="info">
+                                    <div class="top-name">进出车辆 <span class="num">绿地公园观察</span></div>
+                                    <div class="fault-info hidden1">总收入￥ <span class="price">1565484</span></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/index.js"></script>
+</html>
